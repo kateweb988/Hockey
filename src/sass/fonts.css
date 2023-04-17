@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Base02Cyrillic2';
+    src: url('/fonts/Base02Cyrillic2-Regular.eot');
+    src: url('/fonts/Base02Cyrillic2-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Base02Cyrillic2-Regular.woff2') format('woff2'),
+        url('/fonts/Base02Cyrillic2-Regular.woff') format('woff'),
+        url('/fonts/Base02Cyrillic2-Regular.ttf') format('truetype'),
+        url('/fonts/Base02Cyrillic2-Regular.svg#Base02Cyrillic2-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Formular';
+    src: url('/fonts/Formular.eot');
+    src: url('/fonts/Formular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Formular.woff2') format('woff2'),
+        url('/fonts/Formular.woff') format('woff'),
+        url('/fonts/Formular.ttf') format('truetype'),
+        url('/fonts/Formular.svg#Formular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Root UI';
+    src: url('/fonts/PTRootUI-Bold.eot');
+    src: url('/fonts/PTRootUI-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/PTRootUI-Bold.woff2') format('woff2'),
+        url('/fonts/PTRootUI-Bold.woff') format('woff'),
+        url('/fonts/PTRootUI-Bold.ttf') format('truetype'),
+        url('/fonts/PTRootUI-Bold.svg#PTRootUI-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Formular';
+    src: url('/fonts/Formular-Bold.eot');
+    src: url('/fonts/Formular-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Formular-Bold.woff2') format('woff2'),
+        url('/fonts/Formular-Bold.woff') format('woff'),
+        url('/fonts/Formular-Bold.ttf') format('truetype'),
+        url('/fonts/Formular-Bold.svg#Formular-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Formular';
+    src: url('/fonts/Formular-Black.eot');
+    src: url('/fonts/Formular-Black.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Formular-Black.woff2') format('woff2'),
+        url('/fonts/Formular-Black.woff') format('woff'),
+        url('/fonts/Formular-Black.ttf') format('truetype'),
+        url('/fonts/Formular-Black.svg#Formular-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Root UI';
+    src: url('/fonts/PTRootUI-Medium.eot');
+    src: url('/fonts/PTRootUI-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/PTRootUI-Medium.woff2') format('woff2'),
+        url('/fonts/PTRootUI-Medium.woff') format('woff'),
+        url('/fonts/PTRootUI-Medium.ttf') format('truetype'),
+        url('/fonts/PTRootUI-Medium.svg#PTRootUI-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Root UI';
+    src: url('/fonts/PTRootUI-Regular.eot');
+    src: url('/fonts/PTRootUI-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/PTRootUI-Regular.woff2') format('woff2'),
+        url('/fonts/PTRootUI-Regular.woff') format('woff'),
+        url('/fonts/PTRootUI-Regular.ttf') format('truetype'),
+        url('/fonts/PTRootUI-Regular.svg#PTRootUI-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Formular';
+    src: url('/fonts/Formular-BlackItalic.eot');
+    src: url('/fonts/Formular-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Formular-BlackItalic.woff2') format('woff2'),
+        url('/fonts/Formular-BlackItalic.woff') format('woff'),
+        url('/fonts/Formular-BlackItalic.ttf') format('truetype'),
+        url('/fonts/Formular-BlackItalic.svg#Formular-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Formular';
+    src: url('/fonts/Formular-Medium.eot');
+    src: url('/fonts/Formular-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Formular-Medium.woff2') format('woff2'),
+        url('/fonts/Formular-Medium.woff') format('woff'),
+        url('/fonts/Formular-Medium.ttf') format('truetype'),
+        url('/fonts/Formular-Medium.svg#Formular-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('/fonts/TTCommons-Regular.eot');
+    src: url('/fonts/TTCommons-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/TTCommons-Regular.woff2') format('woff2'),
+        url('/fonts/TTCommons-Regular.woff') format('woff'),
+        url('/fonts/TTCommons-Regular.ttf') format('truetype'),
+        url('/fonts/TTCommons-Regular.svg#TTCommons-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,117 @@
+.close-popup
+   position: absolute
+   top: 0
+   right: -65px
+   cursor: pointer
+   width: 12px
+   height: 12px
+   fill: white
+   z-index: 20
+   &:hover 
+      transform: rotate(90deg)
+      fill: $yel
+input::-webkit-input-placeholder 
+   color: #626262 !important
+input::-moz-placeholder
+   color: #626262 !important
+input:-ms-input-placeholder 
+   color: #626262 !important
+input:-moz-placeholder 
+   color: #626262 !important
+.menu-btn, .menu
+   display: none
+.popup__bg, .popup__bg2, .popup__bg3
+   position: fixed
+   top: 0
+   left: 0
+   width: 100%
+   height: 100vh
+   background: #030303
+   opacity: 0
+   pointer-events: none
+   transition: 0.5s all
+   overflow-y: auto
+   overflow-x: hidden
+.popup__bg.active, .popup__bg2.active, .popup__bg3.active
+    opacity: 1
+    pointer-events: all
+    transition: 0.5s all
+    z-index: 22
+.popup, .popup2, .popup3
+   position: absolute
+   top: 49%
+   left: 50%
+   transform: translate(-50%, -50%) scale(0)
+   width: 1130px
+   height: max-content
+   transition: 0.5s all
+   text-align: center
+.popup3
+   width: 600px
+   height: 653px
+   background: #161616
+   border-radius: 40px
+   padding: 48px
+   text-align: left
+   top: 50%
+.popup.active, .popup2.active, .popup3.active
+   transform: translate(-50%, -46%) scale(1)
+   transition: 0.5s all
+.close-popup, .close-popup2, .close-popup3
+   position: absolute
+   top: 20px
+   right: -101px
+   cursor: pointer
+   width: 24px
+   height: 24px
+   fill: white
+   z-index: 20
+   transition: 0.5s
+   transform: rotate(90deg)
+   &:hover 
+      transform: rotate(0deg)
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after, .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after
+   display: none
+.custom-checkbox 
+   position: absolute
+   z-index: -1
+   opacity: 0
+.custom-checkbox+label 
+   display: flex
+   align-items: flex-start
+   user-select: none
+   font-weight: 400
+   font-size: 15px
+   line-height: 130%
+   color: #000000
+   cursor: pointer
+   &:hover
+      &:before 
+         border: 1px solid $yel
+.custom-checkbox+label::before
+   content: ''
+   display: inline-block
+   flex-shrink: 0
+   display: flex
+   flex-grow: 0
+   background-repeat: no-repeat
+   background-position: center center
+   background-size: 12px
+   background: #FFFFFF
+   margin-right: 16px
+   flex: 1 0 auto
+   background: transparent
+   width: 24px
+   height: 24px
+   border: 1px solid white
+   transition: 0.2s
+   max-width: 22.7px
+   max-height: 22.7px
+.custom-checkbox:checked+label::before 
+   background: url(/img/check.svg) no-repeat center center
+   background-size: 12px
+.checkbox p 
+   font-weight: 300
+   font-size: 14px
+   line-height: 100%
+   color: #FFFFFF
