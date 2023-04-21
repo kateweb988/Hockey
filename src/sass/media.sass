@@ -1,95 +1,781 @@
-
-// @media screen and (min-width: 1600px)
-// @media screen and (max-width: 1300px)
-// @media screen and (max-width: 1199px)
-//    .menu-btn 
-//       width: 48px
-//       height: 24px
-//       position: absolute
-//       right: 0px
-//       top: 6px
-//       z-index: 11
-//       overflow: hidden
-//    .menu-btn span 
-//       width: 38px
-//       height: 2px
-//       position: absolute
-//       top: 50%
-//       left: 50%
-//       transform: translate(-50%, -50%)
-//       background-color: white
-//       transition: all 0.5s
-//       margin-left: 5px
-//    .menu-btn span:nth-of-type(2) 
-//       top: calc(50% - 8.5px)
-//       width: 48px
-//       height: 2px
-//       margin-left: 0
-//    .menu-btn span:nth-of-type(3) 
-//       top: calc(50% + 9.4px)
-//       width: 24px
-//       height: 2px
-//       margin-left: 12px
-//    .menu 
-//       position: fixed
-//       top: 0
-//       left: 0
-//       width: 100%
-//       height: 100%
-//       padding: 40px 
-//       background: #030303
-//       transform: translateX(-100%)
-//       transition: transform 0.5s
-//       z-index: 10
-//       overflow: hidden
-//       .nav__list
-//          display: block !important
-//          margin: 40px auto 0
-//          width: 100%
-//          text-align: center
-//          li 
-//             margin-bottom: 20px
-//             &:last-child
-//                margin-bottom: 0
-//    .menu.active
-//       transform: translateX(0)
-//    .menu-btn.active 
-//       overflow: visible
-//       position: fixed
-//       right: 30px
-//       top: 30px
-//    .menu-btn.active span:nth-of-type(1) 
-//       display: none
-//    .menu-btn.active span:nth-of-type(2) 
-//       top: 50%
-//       width: 24px
-//       transform: translate(-50%, 0%) rotate(45deg)
-//       margin-left: 0
-//    .menu-btn.active span:nth-of-type(3) 
-//       width: 24px
-//       top: 50%
-//       transform: translate(-50%, 0%) rotate(-44deg)
-//       margin-left: 0
-//    .menu-btn, .menu
-//       display: block
-// @media ( max-width: 991px )
-//    input, textarea, select
-//       -webkit-appearance: none
-//       -moz-appearance: none
-//       appearance: none
-//    input 
-//       border-radius: 0 !important
-// @media screen and (max-width: 767px)
-// @media screen and (max-width: 576px)
-//    button:active, button:focus 
-//       outline: none
-//    button::-moz-focus-inner 
-//       border: 0
-//    a:active, a:focus
-//       outline: none
-//    input, textarea
-//       outline: none
-//    input:active, textarea:active
-//       outline: none
-//    input:focusout
-//       outline: none
+@media screen and (max-width: 1800px)
+   .header .swiper-button-prev
+      left: 12%
+   .header .swiper-button-next
+      right: 12%
+@media screen and (max-width: 1700px)
+   .header .swiper-button-prev
+      left: 8%
+   .header .swiper-button-next
+      right: 8%
+@media screen and (max-width: 1600px)
+   .header .swiper-button-prev
+      left: 4%
+   .header .swiper-button-next
+      right: 4%
+@media screen and (max-width: 1500px)
+   .rev 
+      padding: 59px 0 96px 0
+   .rev .container 
+      max-width: 1302px
+@media screen and (max-width: 1300px)
+   .nav__form
+      width: 230px
+   .nav__block p
+      font-size: 11px
+   .nav__block
+      width: 136px
+   .nav__tel
+      font-size: 14px
+   .header .swiper-button-next 
+      right: 0%
+   .header .swiper-button-prev
+      left: 0%
+   .pop__item 
+      width: 23.2%
+   .rev__block
+      padding: 28px 20px 42px 20px
+   .footer__info
+      margin-left: 76px
+   .equip__item
+      width: 23.25%
+   .about__pic
+      width: 562px
+   .card__info
+      margin-left: 20px
+   .popup
+      width: 93%
+   .cat .pop__item
+      width: 31%
+@media screen and (max-width: 1199px)
+   .pay__text br 
+      display: none
+   .back__text br 
+      display: none
+   .menu-btn 
+      width: 48px
+      height: 24px
+      position: absolute
+      right: 26px
+      top: 46px
+      z-index: 11
+      overflow: hidden
+   .menu-btn span 
+      width: 38px
+      height: 2px
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+      background-color: white
+      transition: all 0.5s
+      margin-left: 5px
+   .menu-btn span:nth-of-type(2) 
+      top: calc(50% - 8.5px)
+      width: 48px
+      height: 2px
+      margin-left: 0
+   .menu-btn span:nth-of-type(3) 
+      top: calc(50% + 9.4px)
+      width: 24px
+      height: 2px
+      margin-left: 12px
+   .menu 
+      position: fixed
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      padding: 40px 
+      background: #030303
+      transform: translateX(-100%)
+      transition: transform 0.5s
+      z-index: 10
+      overflow: hidden
+      .nav__customers
+         justify-content: center
+      .nav__btn 
+         margin: 0 auto 20px
+      .nav__content
+         text-align: center
+         margin-right: 0
+      .nav__form
+         width: 79%
+         justify-content: center
+         margin: 0 auto 20px
+      .nav__block, .nav__btn, .nav__form
+         display: flex !important
+      .nav__content, .nav__bottom
+         display: block !important
+      .nav__bottom
+         flex-direction: column
+         .nav__list
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            text-align: center
+            margin-right: 0
+            max-width: 100%
+            li 
+               margin-right: 0
+               margin-bottom: 20px
+   .menu.active
+      transform: translateX(0)
+   .menu-btn.active 
+      overflow: visible
+      position: fixed
+      right: 30px
+      top: 30px
+   .menu-btn.active span:nth-of-type(1) 
+      display: none
+   .menu-btn.active span:nth-of-type(2) 
+      top: 50%
+      width: 24px
+      transform: translate(-50%, 0%) rotate(45deg)
+      margin-left: 0
+   .menu-btn.active span:nth-of-type(3) 
+      width: 24px
+      top: 50%
+      transform: translate(-50%, 0%) rotate(-44deg)
+      margin-left: 0
+   .menu-btn, .menu
+      display: block
+   .nav__block, .nav__btn, .nav__content, .nav__form, .nav__bottom
+      display: none  !important
+   .nav__info
+      width: 100%
+      margin-right: 100px
+   .nav-main
+      overflow-x: auto 
+   .nav-main__list
+      width: 1415px
+      li 
+         margin-right: 20px
+         white-space: nowrap
+   .header-arr
+      display: none !important
+   .header__content
+      width: 100%
+      text-align: center
+   .header__btn
+      margin: 0 auto
+   .header .swiper1 .swiper-slide:nth-child(2) .header__pic 
+      position: absolute
+      right: 119px
+      top: 33px
+      width: 70%
+      opacity: 0.4
+   .header .swiper1 .swiper-slide:nth-child(2) .header__content 
+      width: 100%
+      max-width: 100%
+      flex: 1 0 auto
+      position: relative
+      left: 0
+      top: 78px
+      z-index: 2
+   .item .swiper2 .swiper-slide_2 .item__fig
+      width: 100%
+   .item .swiper2 .swiper-slide_1
+      padding: 56px 10px
+   .item .swiper2 .swiper-slide_2
+      padding: 10px
+   .item .swiper2 .swiper-slide_3
+      padding: 59px 10px
+   .pop__item
+      margin-right: 15px
+      padding: 34px 20px
+      width: 23.7%
+   .pop__pic
+      width: auto
+   .pop__name
+      margin-top: auto
+   .pop__block
+      min-height: 130px
+   .news__btn
+      margin: 0
+   .news .swiper4
+      width: 100%
+      overflow: hidden
+       .swiper-slide:last-child 
+            opacity: 1
+            pointer-events: inherit
+   .footer__bottom
+      flex-direction: column
+   .footer__com
+      margin-top: 20px
+   .footer__box
+      flex-direction: column
+   .footer__left
+      margin: 0 auto
+   .footer__socials 
+      margin-top: 24px
+      justify-content: center
+      margin-bottom: 22px
+   .news__title
+      line-height: 19px
+      font-size: 12px
+   .news__text 
+      font-size: 12px
+      margin-bottom: 21px
+      line-height: 17px
+      br 
+         display: none
+   .swiper4 
+      .swiper-slide
+         display: flex
+         flex-direction: column
+         min-height: 438px
+   .news .swiper4 .swiper-slide:last-child
+      opacity: 1 
+      pointer-events: initial
+   .news__link
+      margin-top: auto
+   .rev .container 
+      max-width: 960px
+   .rev .swiper-button-next4
+      right: 0
+   .rev .swiper-button-prev4
+      right: 50px
+   .footer .nav__logo
+      margin-right: 0
+   .bonus__flex
+      flex-wrap: wrap 
+      justify-content: center
+      div 
+         margin: 25px
+         width: 27%
+   .equip__item
+      width: 32.2%
+      margin-right: 15px
+      margin-bottom: 15px
+      display: flex
+      flex-direction: column
+   .equip__item:nth-child(4n)
+      margin-right: 15px
+   .equip__item:nth-child(3n)
+      margin-right: 0
+   .about__item
+      flex-direction: column
+      align-items: center
+      &:nth-child(2n)
+         flex-direction: column-reverse
+   .about__info
+      max-width: 100% !important
+      margin-top: 20px !important
+   .about__block
+      padding: 52px 19px
+   .about .equip__sub
+      margin-bottom: 60px
+   .card__box
+      flex-direction: column-reverse
+      align-items: center
+   .card__info
+      margin-left: 0
+      margin-bottom: 40px
+      text-align: center
+   .card__row
+      justify-content: center
+   .form-check-label:last-child
+      margin-right: 0
+   .card__links
+      justify-content: center
+   .calc__item:last-child
+      .custom-checkbox + label
+         margin-right: 0
+   .cat__top
+      flex-direction: column
+   .cat__tabs
+      margin-bottom: 20px
+      overflow-x: auto
+      padding-bottom: 10px
+      a:last-child
+         margin-right: 0
+   .cat__content
+      flex-direction: column
+      align-items: center
+   .cat__info
+      margin-bottom: 20px
+      padding-bottom: 60px
+      margin-right: 0
+   .cat .pop__item
+      margin-right: 15px !important
+      width: 32.2%
+   .cat .pop__item:nth-child(3n)
+      margin-right: 0 !important
+@media ( max-width: 991px )
+   input, textarea, select
+      -webkit-appearance: none
+      -moz-appearance: none
+      appearance: none
+   input 
+      border-radius: 0 !important
+   .tabs__nav a
+      white-space: nowrap
+   .tabs__nav
+      overflow-x: auto
+      overflow-y: hidden
+   .pop__item:nth-child(4n)
+      margin-right: 15px
+   .pop__item:nth-child(3n)
+      margin-right: 0
+   .pop__item:nth-child(n+7)
+      display: none
+   .pop__item
+      width: 31.8%
+   .footer__mind
+      text-align: center
+      a 
+         display: block
+   .tablet 
+      display: block
+   .footer__content:after
+      display: none
+   .footer__info
+      margin-left: 0
+   .footer__last
+      margin-left: 0
+      margin-top: 40px
+   .footer__content
+      top: 0
+      flex-direction: column
+   .footer__uls
+      margin: 0 auto 20px
+   .footer__title
+      margin-bottom: 20px
+   .footer__right
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      text-align: center
+   .footer__btn
+      margin: 0 auto
+   .footer__item
+      text-align: center
+   .footer__el
+      justify-content: center
+      margin-bottom: 10px
+   .footer__bottom
+      margin-top: 20px
+   .pay__item
+      width: 100%
+   .bonus__flex div 
+      margin: 25px
+      width: 26%
+   .equip__item
+      width: 31.8%
+      padding: 25px 20px
+   .about__pic
+      width: 100%
+      height: auto
+   .about__name br 
+      display: none
+   .about__block
+      flex-wrap: wrap
+      padding: 52px 19px 15px
+      margin-top: 60px
+   .about__el 
+      text-align: center
+      width: 49%
+      margin-bottom: 40px
+   .popup 
+      padding: 40px 20px
+   .popup__block
+      padding: 40px 20px
+      margin-top: 25px
+   .popup__name
+      margin-bottom: 30px
+   .cat__tabs
+      justify-content: center
+      a
+         margin: 10px !important
+   .cat .pop__item:nth-child(3n) 
+      margin-right: 15px !important
+   .cat .pop__item:nth-child(2n) 
+      margin-right: 0px !important
+   .cat .pop__item
+      width: 48.9%
+      margin-bottom: 15px
+@media screen and (max-width: 767px)
+   .news__top
+      flex-direction: column
+   .news__left
+      flex-direction: column
+   .swiper4 .swiper-slide
+      min-height: auto
+   .news__arrow
+      display: none !important
+   .news__box 
+      position: relative
+      .swiper-pagination55
+         bottom: -14px
+      .swiper-pagination-bullet
+         background-color: #d0d0d0
+         opacity: 1
+   .news 
+      padding: 80px 0 184px
+   .news__btn 
+      margin: 0
+      position: absolute
+      bottom: -109px
+      left: 50%
+      margin-left: -84px
+   .news__text
+      width: 80%
+   .rev__arrow 
+      display: none !important
+   .rev .container 
+      max-width: 540px
+   .rev h2
+      margin-bottom: 30px  
+   .rev__block
+      margin-top: 20px
+   .news__top
+      margin-bottom: 30px
+   .pop__item:nth-child(n+5)
+      display: none
+   .pop__item:nth-child(3n)
+      margin-right: 15px
+   .pop__item:nth-child(2n)
+      margin-right: 0
+   .pop__item
+      width: 48%
+      margin-bottom: 15px
+      height: auto
+   .tabs__nav
+      margin-top: 60px
+   .pop__box
+      margin-top: 40px
+   .header__content 
+      width: 80%
+      text-align: center
+      margin: 0 auto
+   .header .swiper1 .swiper-slide
+      padding: 60px 0 !important
+   .header .swiper1 .swiper-slide:nth-child(2) .header__content
+      top: 0
+   .header .swiper1 .header__bg 
+      bottom: -31px
+      width: 100%
+      height: 108%
+   .contacts__flex
+      width: 100%
+      flex-direction: column
+      justify-content: center
+      align-items: center
+   .contacts__block:nth-child(1)
+      margin-bottom: 20px
+   .bonus__table
+      width: 100%
+   .bonus__flex div 
+      margin: 0 0 24px
+      width: 48%
+   .equip__item
+      width: 100%
+      margin: 0 auto 20px !important
+      height: auto
+   .slider-nav
+      display: none !important
+   .slick-dots
+      display: flex
+      justify-content: center
+      margin-top: 20px
+      li 
+         width: 52px
+         height: 2px
+         margin-right: 10px
+         overflow: hidden
+         button
+            width: 100%
+            height: 100%
+            border: none
+            background-color: #d0d0d0
+            opacity: 1
+         &:last-child
+            margin-right: 0
+      .slick-active
+         button 
+            background: $yel
+   .slider
+      height: auto
+      .slick-slide
+         padding: 40px 20px
+   .popup 
+      padding: 60px 20px 40px
+   .cat__bottom
+      flex-direction: column-reverse
+      margin-top: 40px
+   .cat__more
+      margin-left: 0
+      margin-bottom: 40px
+   .cat .pop__item
+      width: 100% !important
+      margin-right: 0 !important
+@media screen and (max-width: 576px)
+   button:active, button:focus 
+      outline: none
+   button::-moz-focus-inner 
+      border: 0
+   a:active, a:focus
+      outline: none
+   input, textarea
+      outline: none
+   input:active, textarea:active
+      outline: none
+   input:focusout
+      outline: none
+   .nav__info 
+      width: 100%
+      margin-right: 0
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      text-align: center
+   .nav__top
+      padding: 20px 0
+   .nav__right
+      margin-top: 20px
+   .nav__logo 
+      width: 170px
+      height: 49px
+      display: block
+      position: relative
+      margin-right: 0
+      align-self: flex-start
+   .nav__logo p
+      left: 23px
+      top: 17px
+      font-size: 15px
+   .menu-btn 
+      width: 48px
+      height: 24px
+      right: 17px
+      top: 32px
+   .menu .nav__form
+      width: 100%
+   .menu
+      padding: 60px 40px
+   .menu-btn.active 
+      right: 4px
+      top: 20px
+   .nav-main__list li
+      margin-right: 15px
+   h1 
+      font-size: 28px
+      line-height: 43px
+   .header__text 
+      font-size: 18px
+      line-height: 25px
+   .header .swiper1 .header__flex
+      position: relative
+   .header .swiper1 .swiper-slide 
+      padding: 38px 0 60px !important
+   .header .swiper1 .swiper-slide:nth-child(2).header__bg
+      display: none
+   .header .swiper1 .swiper-slide:nth-child(1) .header__bg
+      display: block
+      bottom: -61px
+      width: 100%
+      height: 118%
+   .header .swiper1 .swiper-slide:nth-child(2) .header__pic 
+      right: 5px
+      top: 33px
+      width: 109%
+      opacity: 0.4
+   .header .swiper1 .swiper-slide:nth-child(3) .header__bg 
+      bottom: -132px
+      width: 100%
+      height: 171%
+   .item
+      padding: 40px 0
+   h2 
+      font-size: 23px
+      line-height: 31px
+      text-align: center
+   .pop__item
+      width: 100%
+      margin: 0 auto 20px !important
+   .tabs__nav a
+      margin-right: 20px
+   .rev
+      padding: 40px 0 60px
+   .news__data
+      margin-bottom: 10px
+   .news__text
+      margin-bottom: 15px
+   .news 
+      padding: 40px 0 167px
+   .news__box .swiper-pagination55 
+      bottom: -28px
+   .text, .footer
+      padding: 40px 0
+   .text__title
+      font-size: 22px
+      line-height: 32px
+      margin-bottom: 25px
+   .text__el
+      font-size: 14px
+      line-height: 22px
+   .news__top, .rev h2
+      margin-bottom: 40px
+   .rev__name
+      font-size: 17px
+   .pop__links
+      opacity: 1
+   .tabs__nav
+      justify-content: flex-start
+   .header .swiper1
+      overflow: hidden
+   .pop__btn
+      margin-top: 25px
+   .page h1
+      line-height: 38px
+      font-size: 31px
+   .back__text
+      font-size: 14px
+   .contacts__sub
+      font-size: 16px
+   .contacts__info
+      font-size: 14px
+   .contacts #map
+      height: 300px
+   .pay__item
+      padding: 38px 20px 41px 19px
+   .pay__top
+      flex-direction: column
+      text-align: center
+   .pay__top p
+      font-size: 17px
+      margin-left: 0
+      margin-top: 10px
+      line-height: 23px
+   .pay__text
+      font-size: 15px
+   .bonus__content 
+      margin: 34px auto 64px
+   .bonus__flex div
+      width: 49%
+      p 
+         line-height: 18px
+         font-size: 13px
+   .bonus__text
+      font-size: 14px
+   .bonus__flex
+      margin-bottom: 40px
+   .bonus h2
+      margin-bottom: 25px
+   .bonus__left
+      width: 38%
+   .bonus__top
+      font-size: 12px
+      padding: 15px 0
+   .bonus__bottom
+      font-size: 12px
+      padding: 15px 0
+   .bonus__name 
+      font-size: 15px
+      margin-bottom: 22px
+   .bonus__flex
+      justify-content: space-between
+   .equip__sub
+      line-height: 20px
+      font-size: 12px
+      width: 100%
+      max-width: 977px
+      margin: -17px auto 35px
+   .equip__pic
+      min-height: auto
+   .equip__box
+      padding-bottom: 40px
+   .equip__content
+      margin-top: 40px
+   .equip__flex 
+      justify-content: space-between
+      width: 100%
+      max-width: 312px
+      margin: 34px auto 0px
+   .mob 
+      display: block
+   .about .equip__sub
+      margin-bottom: 40px
+      font-size: 14px
+      line-height: 23px
+   .about__name 
+      font-size: 24px
+      margin-bottom: 15px
+      line-height: 34px
+   .about__text 
+      color: #5d5d5d
+      font-size: 14px
+      line-height: 25px
+      margin-bottom: 13px
+   .about__item
+      margin-bottom: 40px
+   .about__el
+      width: 100%
+   .about__links 
+      margin: 58px auto 0
+      flex-direction: column
+   .about__links a
+      width: 100%
+      &:first-child
+         margin-bottom: 15px
+   .card__slider
+      width: 100%
+      max-width: 100%
+   .slider
+      max-width: 100%
+      img 
+         width: 100%
+   .card .custom-checkbox + label 
+      width: 34px
+      height: 32px
+      margin-right: 10px
+      font-size: 12px
+   .card__links
+      flex-direction: column
+      justify-content: center
+      a 
+         width: 100%
+         &:first-child
+            margin-right: 0
+            margin-bottom: 15px
+   .card__table
+      margin: 75px 0 48px
+   .card__title
+      margin-bottom: 25px
+   .card__bottom .card__text
+      font-size: 14px
+   .card__line p:nth-child(1)
+      font-size: 14px
+   .card__line p:nth-child(2)
+      font-size: 14px
+   .card__row
+      flex-wrap: wrap
+   .calc__item
+      margin-bottom: 10px
+   .popup 
+      padding: 60px 10px 20px
+   .popup__title 
+      font-size: 25px
+      margin-bottom: 29px
+      line-height: 30px
+   .popup__block
+      padding: 20px 10px
+   .mm 
+      flex-direction: column 
+      align-items: center
+      justify-content: center
+      li 
+         margin-bottom: 40px !important
+         width: 100% !important
+         margin-top: 0 !important
+   .bonus__sub br 
+      display: none
+   .cat__tabs a 
+      margin: 6px !important
+      height: 34px
+      padding: 0 10px
+      font-size: 14px
+   .popup2
+      width: 98%
+      padding: 40px 20px

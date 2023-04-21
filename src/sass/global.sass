@@ -13,7 +13,7 @@ a
       color: $yel
 .container
    padding: 0 15px
-   max-width: 1352px
+   max-width: 1302px
    margin: 0 auto
    @media ( max-width: 1199px )
       max-width: 960px
@@ -77,7 +77,7 @@ input
       pointer-events: none
       opacity: 0.5
    &:focus 
-      border-bottom: 1px solid $yel !important
+      border: 1px solid $yel !important
       transition: 0.5s
    &:focus-visible
       outline: initial
@@ -102,6 +102,38 @@ html *::-webkit-scrollbar-track
 html *::-webkit-scrollbar-thumb 
    background-color: $yel
    border-radius: 6px
+
+.nav-main 
+   scrollbar-width: thin
+   scrollbar-color: blue white
+.nav-main::-webkit-scrollbar,
+.nav-main::-webkit-scrollbar 
+   height: 4px
+   width: 4px
+.nav-main::-webkit-scrollbar-track,
+.nav-main::-webkit-scrollbar-track 
+   background: #E7E7E7
+   border-radius: 3px
+.nav-main::-webkit-scrollbar-thumb,
+.nav-main::-webkit-scrollbar-thumb 
+   background-color: white
+   border-radius: 6px
+
+.tabs__nav 
+   scrollbar-width: thin
+   scrollbar-color: blue transparent
+.tabs__nav::-webkit-scrollbar,
+.tabs__nav::-webkit-scrollbar 
+   height: 0px
+   width: 0px
+.tabs__nav::-webkit-scrollbar-track,
+.tabs__nav::-webkit-scrollbar-track 
+   background: #E7E7E7
+   border-radius: 3px
+.tabs__nav::-webkit-scrollbar-thumb,
+.tabs__nav::-webkit-scrollbar-thumb 
+   background-color: transparent
+   border-radius: 6px
 .btn 
    font-family: 'Formular'
    background: #f1b306
@@ -117,3 +149,13 @@ html *::-webkit-scrollbar-thumb
    &:hover 
       background: transparent 
       border: 2px solid #f1b306
+   &_2
+      border: 2px solid #f1b306
+      background: transparent 
+      color: #20252d 
+      font-size: 16px
+      width: 317px
+      height: 58px
+      &:hover
+         background: $yel
+         color: white
