@@ -48,6 +48,10 @@
    .cat .pop__item
       width: 31%
 @media screen and (max-width: 1199px)
+   .equip__sub
+      width: 105%
+      left: -23px
+      position: relative
    .pay__text br 
       display: none
    .back__text br 
@@ -185,6 +189,9 @@
       margin-right: 15px
       padding: 34px 20px
       width: 23.7%
+   .cat__items
+      .pop__pic
+         width: 100%
    .pop__pic
       width: auto
    .pop__name
@@ -290,6 +297,15 @@
       padding-bottom: 10px
       a:last-child
          margin-right: 0
+   .cat .pop__item:nth-child(4n)
+      margin-right: 15px
+   .cat .pop__item
+      margin-bottom: 15px
+      width: 30.8%
+@media ( max-width: 991px )
+   .cat__items
+      .pop__pic
+         width: auto
    .cat__content
       flex-direction: column
       align-items: center
@@ -302,7 +318,6 @@
       width: 32.2%
    .cat .pop__item:nth-child(3n)
       margin-right: 0 !important
-@media ( max-width: 991px )
    input, textarea, select
       -webkit-appearance: none
       -moz-appearance: none
@@ -395,6 +410,11 @@
    .cat .pop__item
       width: 48.9%
       margin-bottom: 15px
+   .equip__sub
+      width: 100%
+      left: 0px
+      br 
+         display: none
 @media screen and (max-width: 767px)
    .news__top
       flex-direction: column
