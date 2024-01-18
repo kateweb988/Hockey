@@ -420,92 +420,92 @@ html *::-webkit-scrollbar-thumb {
 
 @font-face {
   font-family: "Base02Cyrillic2";
-  src: url("/fonts/Base02Cyrillic2-Regular.eot");
-  src: url("/fonts/Base02Cyrillic2-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/Base02Cyrillic2-Regular.woff2") format("woff2"), url("/fonts/Base02Cyrillic2-Regular.woff") format("woff"), url("/fonts/Base02Cyrillic2-Regular.ttf") format("truetype"), url("/fonts/Base02Cyrillic2-Regular.svg#Base02Cyrillic2-Regular") format("svg");
+  src: url("../fonts/Base02Cyrillic2-Regular.eot");
+  src: url("../fonts/Base02Cyrillic2-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Base02Cyrillic2-Regular.woff2") format("woff2"), url("../fonts/Base02Cyrillic2-Regular.woff") format("woff"), url("../fonts/Base02Cyrillic2-Regular.ttf") format("truetype"), url("../fonts/Base02Cyrillic2-Regular.svg#Base02Cyrillic2-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Formular";
-  src: url("/fonts/Formular.eot");
-  src: url("/fonts/Formular.eot?#iefix") format("embedded-opentype"), url("/fonts/Formular.woff2") format("woff2"), url("/fonts/Formular.woff") format("woff"), url("/fonts/Formular.ttf") format("truetype"), url("/fonts/Formular.svg#Formular") format("svg");
+  src: url("../fonts/Formular.eot");
+  src: url("../fonts/Formular.eot?#iefix") format("embedded-opentype"), url("../fonts/Formular.woff2") format("woff2"), url("../fonts/Formular.woff") format("woff"), url("../fonts/Formular.ttf") format("truetype"), url("../fonts/Formular.svg#Formular") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "PT Root UI";
-  src: url("/fonts/PTRootUI-Bold.eot");
-  src: url("/fonts/PTRootUI-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/PTRootUI-Bold.woff2") format("woff2"), url("/fonts/PTRootUI-Bold.woff") format("woff"), url("/fonts/PTRootUI-Bold.ttf") format("truetype"), url("/fonts/PTRootUI-Bold.svg#PTRootUI-Bold") format("svg");
+  src: url("../fonts/PTRootUI-Bold.eot");
+  src: url("../fonts/PTRootUI-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/PTRootUI-Bold.woff2") format("woff2"), url("../fonts/PTRootUI-Bold.woff") format("woff"), url("../fonts/PTRootUI-Bold.ttf") format("truetype"), url("../fonts/PTRootUI-Bold.svg#PTRootUI-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Formular";
-  src: url("/fonts/Formular-Bold.eot");
-  src: url("/fonts/Formular-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Formular-Bold.woff2") format("woff2"), url("/fonts/Formular-Bold.woff") format("woff"), url("/fonts/Formular-Bold.ttf") format("truetype"), url("/fonts/Formular-Bold.svg#Formular-Bold") format("svg");
+  src: url("../fonts/Formular-Bold.eot");
+  src: url("../fonts/Formular-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Formular-Bold.woff2") format("woff2"), url("../fonts/Formular-Bold.woff") format("woff"), url("../fonts/Formular-Bold.ttf") format("truetype"), url("../fonts/Formular-Bold.svg#Formular-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Formular";
-  src: url("/fonts/Formular-Black.eot");
-  src: url("/fonts/Formular-Black.eot?#iefix") format("embedded-opentype"), url("/fonts/Formular-Black.woff2") format("woff2"), url("/fonts/Formular-Black.woff") format("woff"), url("/fonts/Formular-Black.ttf") format("truetype"), url("/fonts/Formular-Black.svg#Formular-Black") format("svg");
+  src: url("../fonts/Formular-Black.eot");
+  src: url("../fonts/Formular-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Formular-Black.woff2") format("woff2"), url("../fonts/Formular-Black.woff") format("woff"), url("../fonts/Formular-Black.ttf") format("truetype"), url("../fonts/Formular-Black.svg#Formular-Black") format("svg");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "PT Root UI";
-  src: url("/fonts/PTRootUI-Medium.eot");
-  src: url("/fonts/PTRootUI-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/PTRootUI-Medium.woff2") format("woff2"), url("/fonts/PTRootUI-Medium.woff") format("woff"), url("/fonts/PTRootUI-Medium.ttf") format("truetype"), url("/fonts/PTRootUI-Medium.svg#PTRootUI-Medium") format("svg");
+  src: url("../fonts/PTRootUI-Medium.eot");
+  src: url("../fonts/PTRootUI-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/PTRootUI-Medium.woff2") format("woff2"), url("../fonts/PTRootUI-Medium.woff") format("woff"), url("../fonts/PTRootUI-Medium.ttf") format("truetype"), url("../fonts/PTRootUI-Medium.svg#PTRootUI-Medium") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 /* @font-face {
     font-family: 'PT Root UI';
-    src: url('/fonts/PTRootUI-Regular.eot');
-    src: url('/fonts/PTRootUI-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/PTRootUI-Regular.woff2') format('woff2'),
-        url('/fonts/PTRootUI-Regular.woff') format('woff'),
-        url('/fonts/PTRootUI-Regular.ttf') format('truetype'),
-        url('/fonts/PTRootUI-Regular.svg#PTRootUI-Regular') format('svg');
+    src: url('../fonts/PTRootUI-Regular.eot');
+    src: url('../fonts/PTRootUI-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PTRootUI-Regular.woff2') format('woff2'),
+        url('../fonts/PTRootUI-Regular.woff') format('woff'),
+        url('../fonts/PTRootUI-Regular.ttf') format('truetype'),
+        url('../fonts/PTRootUI-Regular.svg#PTRootUI-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 } */
 @font-face {
   font-family: "PT Root UI";
-  src: url("/fonts/PTRootUI-Regular.eot");
-  src: url("/fonts/PTRootUI-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/PTRootUI-Regular.woff2") format("woff2"), url("/fonts/PTRootUI-Regular.woff") format("woff"), url("/fonts/PTRootUI-Regular.ttf") format("truetype"), url("/fonts/PTRootUI-Regular.svg#PTRootUI-Regular") format("svg");
+  src: url("../fonts/PTRootUI-Regular.eot");
+  src: url("../fonts/PTRootUI-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/PTRootUI-Regular.woff2") format("woff2"), url("../fonts/PTRootUI-Regular.woff") format("woff"), url("../fonts/PTRootUI-Regular.ttf") format("truetype"), url("../fonts/PTRootUI-Regular.svg#PTRootUI-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Formular";
-  src: url("/fonts/Formular-BlackItalic.eot");
-  src: url("/fonts/Formular-BlackItalic.eot?#iefix") format("embedded-opentype"), url("/fonts/Formular-BlackItalic.woff2") format("woff2"), url("/fonts/Formular-BlackItalic.woff") format("woff"), url("/fonts/Formular-BlackItalic.ttf") format("truetype"), url("/fonts/Formular-BlackItalic.svg#Formular-BlackItalic") format("svg");
+  src: url("../fonts/Formular-BlackItalic.eot");
+  src: url("../fonts/Formular-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Formular-BlackItalic.woff2") format("woff2"), url("../fonts/Formular-BlackItalic.woff") format("woff"), url("../fonts/Formular-BlackItalic.ttf") format("truetype"), url("../fonts/Formular-BlackItalic.svg#Formular-BlackItalic") format("svg");
   font-weight: 900;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Formular";
-  src: url("/fonts/Formular-Medium.eot");
-  src: url("/fonts/Formular-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/Formular-Medium.woff2") format("woff2"), url("/fonts/Formular-Medium.woff") format("woff"), url("/fonts/Formular-Medium.ttf") format("truetype"), url("/fonts/Formular-Medium.svg#Formular-Medium") format("svg");
+  src: url("../fonts/Formular-Medium.eot");
+  src: url("../fonts/Formular-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Formular-Medium.woff2") format("woff2"), url("../fonts/Formular-Medium.woff") format("woff"), url("../fonts/Formular-Medium.ttf") format("truetype"), url("../fonts/Formular-Medium.svg#Formular-Medium") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "TT Commons";
-  src: url("/fonts/TTCommons-Regular.eot");
-  src: url("/fonts/TTCommons-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/TTCommons-Regular.woff2") format("woff2"), url("/fonts/TTCommons-Regular.woff") format("woff"), url("/fonts/TTCommons-Regular.ttf") format("truetype"), url("/fonts/TTCommons-Regular.svg#TTCommons-Regular") format("svg");
+  src: url("../fonts/TTCommons-Regular.eot");
+  src: url("../fonts/TTCommons-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-Regular.woff2") format("woff2"), url("../fonts/TTCommons-Regular.woff") format("woff"), url("../fonts/TTCommons-Regular.ttf") format("truetype"), url("../fonts/TTCommons-Regular.svg#TTCommons-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -646,7 +646,7 @@ input:-moz-placeholder {
 }
 
 .custom-checkbox:checked + label::before {
-  background: url(/img/check2.png) no-repeat center center;
+  background: url(../img/check2.png) no-repeat center center;
   background-size: 8px;
 }
 
@@ -1003,7 +1003,7 @@ input:-moz-placeholder {
   position: relative;
 }
 .item .swiper2 .swiper-slide_1 {
-  background: url(/img/i1.png) no-repeat center center/cover;
+  background: url(../img/i1.png) no-repeat center center/cover;
   padding: 56px 39px;
 }
 .item .swiper2 .swiper-slide_1 .item__bg {
@@ -1039,7 +1039,7 @@ input:-moz-placeholder {
   margin-left: 7px;
 }
 .item .swiper2 .swiper-slide_2 {
-  background: url(/img/i2.png) no-repeat center center/cover;
+  background: url(../img/i2.png) no-repeat center center/cover;
   padding: 9px 61px;
 }
 .item .swiper2 .swiper-slide_2 .item__title {
@@ -1074,7 +1074,7 @@ input:-moz-placeholder {
   margin-top: 10px;
 }
 .item .swiper2 .swiper-slide_3 {
-  background: url(/img/i3.png) no-repeat center center/cover;
+  background: url(../img/i3.png) no-repeat center center/cover;
   padding: 59px 140px;
   text-align: center;
 }
@@ -1347,7 +1347,7 @@ input:-moz-placeholder {
   left: 0;
   width: 19px;
   height: 17px;
-  background: url(/img/top.png) no-repeat;
+  background: url(../img/top.png) no-repeat;
 }
 .rev__box {
   position: relative;
@@ -2353,11 +2353,13 @@ input:-moz-placeholder {
 }
 .popup .swiper44 {
   overflow: hidden;
+  padding-bottom: 44px;
 }
 .popup .swiper44 .pop__item {
   width: 100%;
   border: 1px solid #e6e6e6;
   background-color: #ffffff;
+  margin-bottom: 0;
 }
 
 .range_container {
@@ -2418,13 +2420,13 @@ input[type=range]::-webkit-slider-thumb {
   pointer-events: all;
   width: 19px;
   height: 19px;
-  background: url(/img/range.png) no-repeat center 0px;
+  background: url(../img/range.png) no-repeat center 0px;
   cursor: pointer;
   border: none;
 }
 
 input[type=range]:nth-child(2)::-webkit-slider-thumb {
-  background: url(/img/range.png) no-repeat center 0px !important;
+  background: url(../img/range.png) no-repeat center 0px !important;
   position: relative;
   top: -1.6px;
 }
@@ -2434,7 +2436,7 @@ input[type=range]::-moz-range-thumb {
   pointer-events: all;
   width: 19px;
   height: 19px;
-  background: url(/img/range.png) no-repeat center 0px;
+  background: url(../img/range.png) no-repeat center 0px;
   cursor: pointer;
 }
 
@@ -2537,7 +2539,7 @@ input[type=range]:hover, input[type=range]:focus {
   height: 5px;
   text-align: center;
   vertical-align: top;
-  background: url(/img/down-arrow.png) no-repeat !important;
+  background: url(../img/down-arrow.png) no-repeat !important;
   position: absolute;
   right: -16px;
   top: 8px;
@@ -2898,7 +2900,7 @@ ul.info li {
   content: "";
   position: absolute;
   right: 0px;
-  background: url(/img/down-arrow.png) no-repeat !important;
+  background: url(../img/down-arrow.png) no-repeat !important;
   width: 7px;
   left: inherit;
   height: 5px;
@@ -2912,7 +2914,7 @@ ul.info li {
   content: "";
   position: absolute;
   right: 0px;
-  background: url(/img/down-arrow.png) no-repeat !important;
+  background: url(../img/down-arrow.png) no-repeat !important;
   width: 7px;
   left: inherit;
   height: 5px;
@@ -3046,9 +3048,7 @@ ul.info li {
 }
 @media screen and (max-width: 1199px) {
   .equip__sub {
-    width: 105%;
-    left: -23px;
-    position: relative;
+    width: 100%;
   }
   .pay__text br {
     display: none;
@@ -4057,5 +4057,8 @@ ul.info li {
   .popup2 {
     width: 98%;
     padding: 40px 20px;
+  }
+  .popup .swiper44 {
+    padding-bottom: 0;
   }
 }

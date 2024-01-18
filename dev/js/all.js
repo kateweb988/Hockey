@@ -576,8 +576,8 @@ document.addEventListener("DOMContentLoaded", () => {
       slidesToScroll: 1,
       asNavFor: '.slider',
       focusOnSelect: true,
-      prevArrow: '<button type="button" class="slick-prev"><img src="/img/top.svg" class="old"><img src="/img/top2.svg" class="new"></button>',
-      nextArrow: '<button type="button" class="slick-next"><img src="/img/top.svg" class="old"><img src="/img/top2.svg" class="new"></button>',
+      prevArrow: '<button type="button" class="slick-prev"><img src="img/top.svg" class="old"><img src="img/top2.svg" class="new"></button>',
+      nextArrow: '<button type="button" class="slick-next"><img src="img/top.svg" class="old"><img src="img/top2.svg" class="new"></button>',
       vertical: true,
       responsive: [
         {
